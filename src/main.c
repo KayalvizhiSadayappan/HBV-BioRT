@@ -87,6 +87,7 @@ int main(int argc, char *argv[])
             {
                 // In reaction mode, simulate reaction for soil, and speciation for stream
                 Reaction(kstep, nsub, 86400.0, steps, chemtbl, kintbl, &rttbl, subcatch);
+                Speciation(nsub, chemtbl, &ctrl, &rttbl, subcatch);  // 2021-07-16
             }
             else
             {

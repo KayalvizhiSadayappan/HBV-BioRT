@@ -240,6 +240,7 @@ void Speciation(int nsub, const chemtbl_struct chemtbl[], const ctrl_struct *ctr
 
     for (ksub = 0; ksub < nsub; ksub++)
     {
+        SolveSpeciation(chemtbl, ctrl, rttbl, 0, &subcatch[ksub].chms[SURFACE]);  // 2021-07-16
         SolveSpeciation(chemtbl, ctrl, rttbl, 0, &subcatch[ksub].chms[UZ]);
         SolveSpeciation(chemtbl, ctrl, rttbl, 0, &subcatch[ksub].chms[LZ]);
     }
