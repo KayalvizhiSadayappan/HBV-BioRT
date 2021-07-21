@@ -1,0 +1,21 @@
+# Names and concentrations of species of condition X.
+# Recommended order: aqueous primary, adsorption, cation exchange, mineral
+# Concentration units: mol L-1; minerals concentration: volume fraction v/v;
+#   ssa unit: m2 g-1
+
+PRECIPITATION
+pH          5.0
+Cl-         1.0E-5
+
+SURFACE
+pH          5.50
+Cl-         1.0E-6
+
+UZ
+pH          5.50
+Cl-         1.0E-6
+
+LZ
+pH          7.00
+Cl-         1.0E-6
+
