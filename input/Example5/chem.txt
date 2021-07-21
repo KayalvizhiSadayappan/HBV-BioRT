@@ -15,11 +15,10 @@ DOC
 CO2(aq)
 SOC
 Decomp
-X-
+
 
 SECONDARY_SPECIES       # list of secondary species
 OH-
-XDOC
 
 MINERAL_KINETICS        # list of minerals
 SOC            -label     test
