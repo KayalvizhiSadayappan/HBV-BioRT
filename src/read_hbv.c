@@ -87,8 +87,8 @@ void ReadHbvResults(const char dir[], int nsub, int *nsteps, int *steps[], subca
 
         // Add residual moisture
         for (kstep = 0; kstep < *nsteps; kstep++)
-        {    
-            subcatch[ksub].ws[kstep][SURFACE] = subcatch[ksub].res_surface;   // 2021-07-19, use small water storage for surface water
+        {
+            subcatch[ksub].ws[kstep][SURFACE] += subcatch[ksub].res_surface;   // 2021-07-19, use small water storage for surface water
             subcatch[ksub].ws[kstep][UZ] += subcatch[ksub].res_uz;
             subcatch[ksub].ws[kstep][LZ] += subcatch[ksub].res_lz;
         }
