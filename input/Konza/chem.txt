@@ -4,6 +4,7 @@ TRANSPORT_ONLY  0       # transport only mode: 0 = turn on reactions, 1 = transp
 PRECIPCHEM      1       # precipitation chemistry mode: 0 = constant precipitation chemistry defined in cini.txt, 1 = time-series precipitation chemistry defined in precipchem.txt
 NUMEXP          1       # Numerical experiment mode: 0 = No numerical experiment 1 = precipitation chemistry defined in Numexp_precipchem.txt is used for simulation while that in precipchem.txt is used for warm-up
 TEMPERATURE     25      # assumed temperature for thermal decoupled mode
+STEP_SIZE       86400   # Time step in seconds (example: 86400 for 1 day interval)
 
 PRIMARY_SPECIES         # list of all primary species
 pH

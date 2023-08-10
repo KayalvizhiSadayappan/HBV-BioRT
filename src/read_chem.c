@@ -73,6 +73,9 @@ void ReadChem(const char dir[], ctrl_struct *ctrl, rttbl_struct *rttbl, chemtbl_
     ReadParam(cmdstr, "TEMPERATURE", 'd', fn, lno, &rttbl->tmp);
     biort_printf(VL_NORMAL, "  Temperature = %3.1f \n", rttbl->tmp);
 
+    NextLine(fp, cmdstr, &lno);
+    ReadParam(cmdstr, "STEP_SIZE", 'd', fn, lno, &ctrl->step_size);
+    biort_printf(VL_NORMAL, "  Time Step = %.2f\n", ctrl->step_size);
     //NextLine(fp, cmdstr, &lno);
     //ReadParam(cmdstr, "SW_THRESHOLD", 'd', fn, lno, &rttbl->sw_thld);
     //biort_printf(VL_NORMAL, "  SW threshold = %.2f\n", rttbl->sw_thld);

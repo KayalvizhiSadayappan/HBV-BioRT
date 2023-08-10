@@ -83,6 +83,7 @@ typedef struct ctrl_struct
     int             precipchem;             // precipitation chemistry mode: 0 = constant precipitation chemistry, 1 = time-series precipitation chemistry   2021-05-20
     int             precipchem_numexp;      // Numerical experiment mode: 0 = same precipitation chemistry during warm-up and simulation
                                             // 1 = different precipitation chemistry during warm-up and simulation useful for numerical experiment  2021-09-09
+    double          step_size;               // step size at which processes are simulated in seconds                                         
     double         *steps;                  // model steps
 } ctrl_struct;
 

@@ -93,22 +93,22 @@ int main(int argc, char *argv[])
             // Transport changes total concentrations. Primary concentrations needs to be updated using total
             // concentrations
             UpdatePrimConc(kstep, nsub, &rttbl, &ctrl, subcatch);
-            
+
             StreamSpeciation(kstep, nsub, chemtbl, &ctrl, &rttbl, subcatch);
 
             PrintDailyResults(fp, ctrl.transpt, steps[kstep], nsub, &rttbl, subcatch);
-            
+
             if (ctrl.transpt == KIN_REACTION)
             {
                 // In reaction mode, simulate reaction for soil, and speciation for stream
-                Reaction(kstep, nsub, 86400.0, steps, chemtbl, kintbl, &rttbl, subcatch);
+                Reaction(kstep, nsub, ctrl.step_size, steps, chemtbl, kintbl, &rttbl, subcatch);
             }
             else
             {
                 Speciation(nsub, chemtbl, &ctrl, &rttbl, subcatch);
             }
 
-            
+
         }
     }
 
@@ -134,7 +134,7 @@ int main(int argc, char *argv[])
             // Transport changes total concentrations. Primary concentrations needs to be updated using total
             // concentrations
             UpdatePrimConc(kstep, nsub, &rttbl, &ctrl, subcatch_numexp);
-            
+
             StreamSpeciation(kstep, nsub, chemtbl, &ctrl, &rttbl, subcatch_numexp);
 
             PrintDailyResults(fp, ctrl.transpt, steps_numexp[kstep], nsub, &rttbl, subcatch_numexp);
@@ -142,7 +142,7 @@ int main(int argc, char *argv[])
             if (ctrl.transpt == KIN_REACTION)
             {
                 // In reaction mode, simulate reaction for soil, and speciation for stream
-                Reaction(kstep, nsub, 86400.0, steps, chemtbl, kintbl, &rttbl, subcatch_numexp);
+                Reaction(kstep, nsub, ctrl.step_size, steps, chemtbl, kintbl, &rttbl, subcatch_numexp);
             }
             else
             {
