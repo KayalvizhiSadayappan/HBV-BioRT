@@ -4,22 +4,45 @@
 #   ssa unit: m2 g-1
 
 PRECIPITATION
-pH          4.30
-Cl-         1.00E-5
-DOC	        1.00E-7
-SOC         1.00E-10    -ssa    5.0     -logk  -13.6   -Q10    2   -SW_threshold   0.7     -SW_exp     1.5   -n_alpha    0
-X-          1.00E-10
+pH      	    4.53
+HCO3-	 	    1E-10
+Ca++	 	    3.81E-6
+DOC		        1.07E-4
+SOC(s)		    1E-10 		-ssa 0.001	-logk -10.2 -Q10    1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+SOC-lz(s) 	    1E-10 		-ssa 0.001	-logk -9.20 -Q10    1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+Calcite(s)      1E-20 		-ssa 0.0008	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+Calcite-lz(s)  	1E-20 		-ssa 0.0008	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+CO2(*g)		    1E-6		-ssa 0.01	-logk -13.1 -Q10	1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+
+SF
+pH      	    5.29
+HCO3-	 	    2.05E-4
+Ca++	 	    9.36E-5
+DOC		        2.33E-4
+SOC(s)		    1E-20 		-ssa 0.001	-logk -10.2 -Q10    1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+SOC-lz(s) 	    1E-20 		-ssa 0.001	-logk -9.20 -Q10    1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+Calcite(s)  	1E-20 		-ssa 0.0008	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+Calcite-lz(s)  	1E-20 		-ssa 0.0008	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+CO2(*g)		    1E-20		-ssa 0.01	-logk -13.1 -Q10	1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
 
 SZ
-pH          4.56
-Cl-         3.69E-5
-DOC         2.0E-5
-SOC         0.02        -ssa    5.0     -logk  -13.6   -Q10    2   -SW_threshold   0.7     -SW_exp     1.5   -n_alpha    0.002
-X-          5.2E-5
+pH      	    6.76
+HCO3-	 	    2.84E-4
+Ca++	 	    1.29E-4
+DOC		        3.22E-4
+SOC(s)		    0.10 		-ssa 0.01	-logk -10.4 -Q10    3.5   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+SOC-lz(s) 	    1E-20 		-ssa 0.001	-logk -10.70 -Q10    1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+Calcite(s)      1E-1 		-ssa 0.8	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+Calcite-lz(s)  	1E-20 		-ssa 0.0008	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+CO2(*g)		    1E-24		-ssa 0.01	-logk -13.1 -Q10	1   -SW_threshold   0.7     -SW_exp     2	-n_alpha    0
 
 DZ
-pH          4.56
-Cl-         3.69E-5
-DOC         2.0E-5
-SOC         0.002       -ssa    5.0     -logk  -13.6   -Q10    2   -SW_threshold   0.7     -SW_exp     1.5   -n_alpha    0
-X-          5.2E-5
+pH          	4.91
+HCO3-	    	1.90E-3
+Ca++	 	    1.29E-4
+DOC	        	8.40E-5
+SOC(s)		    1E-20 		-ssa 0.001	-logk -10.4 -Q10    1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0
+SOC-lz(s) 	    0.001 		-ssa 0.005	-logk -10.70 -Q10    1   -SW_threshold   0.6     -SW_exp     0	-n_alpha    0
+Calcite(s)      1E-20 		-ssa 0.0008	-logk -9.19 -Q10    1.7 -SW_threshold   1       -SW_exp     0.9	-n_alpha    0
+Calcite-lz(s)  	1.5E-4		-ssa 0.008	-logk -9.19 -Q10    1   -SW_threshold   1       -SW_exp     0	-n_alpha    0
+CO2(*g)		    1E-24		-ssa 0.001	-logk -13.1 -Q10	1   -SW_threshold   0.7     -SW_exp     0	-n_alpha    0

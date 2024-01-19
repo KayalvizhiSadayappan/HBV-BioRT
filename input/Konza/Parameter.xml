@@ -5,13 +5,13 @@
     <KGmin>0.05</KGmin>
     <RangeKG>0.1</RangeKG>
     <AG>0.1</AG>
-    <PERC>4</PERC>
+    <PERC>4.3502095246829908</PERC>
     <Alpha>0</Alpha>
-    <UZL>1.5</UZL>
-    <K0>0.6</K0>
-    <K1>0.4</K1>
-    <K2>0.2</K2>
-    <MAXBAS>1.5</MAXBAS>
+    <UZL>16.781688547191269</UZL>
+    <K0>0.36432294248430241</K0>
+    <K1>0.326561513762922</K1>
+    <K2>0.0325618050105348</K2>
+    <MAXBAS>1</MAXBAS>
     <Cet>0</Cet>
     <PCALT>10</PCALT>
     <TCALT>0.6</TCALT>
@@ -22,17 +22,17 @@
   </CatchmentParameters>
   <VegetationZone>
     <VegetationZoneParameters>
-      <TT>-1.5</TT>
-      <CFMAX>3.5</CFMAX>
-      <SP>1</SP>
-      <SFCF>1</SFCF>
-      <CFR>0.5</CFR>
-      <CWH>0.05</CWH>
+      <TT>1.178183811825773</TT>
+      <CFMAX>3.4089226823135061</CFMAX>
+      <SP>0</SP>
+      <SFCF>0.64221631750886088</SFCF>
+      <CFR>0.05</CFR>
+      <CWH>0.1</CWH>
       <CFGlacier>1</CFGlacier>
       <CFSlope>1</CFSlope>
-      <FC>200</FC>
-      <LP>0.66</LP>
-      <BETA>3.48</BETA>
+      <FC>86.162590552690787</FC>
+      <LP>0.66597521960792738</LP>
+      <BETA>4.990813985142788</BETA>
     </VegetationZoneParameters>
   </VegetationZone>
   <SubCatchment>
@@ -41,13 +41,13 @@
       <KGmin>0.05</KGmin>
       <RangeKG>0.1</RangeKG>
       <AG>0.1</AG>
-      <PERC>4</PERC>
+      <PERC>4.3502095246829908</PERC>
       <Alpha>0</Alpha>
-      <UZL>1.5</UZL>
-      <K0>0.6</K0>
-      <K1>0.4</K1>
-      <K2>0.2</K2>
-      <MAXBAS>1.5</MAXBAS>
+      <UZL>16.781688547191269</UZL>
+      <K0>0.36432294248430241</K0>
+      <K1>0.326561513762922</K1>
+      <K2>0.0325618050105348</K2>
+      <MAXBAS>1</MAXBAS>
       <Cet>0</Cet>
       <PCALT>10</PCALT>
       <TCALT>0.6</TCALT>
@@ -58,17 +58,17 @@
     </SubCatchmentParameters>
     <SubCatchmentVegetationZone>
       <SubCatchmentVegetationZoneParameters>
-        <TT>-1.5</TT>
-        <CFMAX>3.5</CFMAX>
-        <SP>1</SP>
-        <SFCF>1</SFCF>
-        <CFR>0.5</CFR>
-        <CWH>0.05</CWH>
+        <TT>1.178183811825773</TT>
+        <CFMAX>3.4089226823135061</CFMAX>
+        <SP>0</SP>
+        <SFCF>0.64221631750886088</SFCF>
+        <CFR>0.05</CFR>
+        <CWH>0.1</CWH>
         <CFGlacier>1</CFGlacier>
         <CFSlope>1</CFSlope>
-        <FC>200</FC>
-        <LP>0.66</LP>
-        <BETA>3.48</BETA>
+        <FC>86.162590552690787</FC>
+        <LP>0.66597521960792738</LP>
+        <BETA>4.990813985142788</BETA>
       </SubCatchmentVegetationZoneParameters>
     </SubCatchmentVegetationZone>
   </SubCatchment>
