@@ -40,7 +40,22 @@ void ReadChem(const char dir[], ctrl_struct *ctrl, rttbl_struct *rttbl, chemtbl_
         default:
             break;
     }
-
+    
+    NextLine(fp, cmdstr, &lno);
+    ReadParam(cmdstr, "SF_REACTION", 'i', fn, lno, &ctrl->sfreaction);
+    switch (ctrl->sfreaction)
+    {
+        case 0:
+            biort_printf(VL_NORMAL, "  Surface reactions disabled.\n");
+            break;
+        case 1:
+            biort_printf(VL_NORMAL, "  Surface reactions enabled. \n");
+            break;
+            // under construction.
+        default:
+            break;
+    }
+    
     NextLine(fp, cmdstr, &lno);  // 2021-05-20
     ReadParam(cmdstr, "PRECIPCHEM", 'i', fn, lno, &ctrl->precipchem);
     switch (ctrl->precipchem)
